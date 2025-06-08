@@ -1,0 +1,35 @@
+{
+    "rdf:RDF": {
+        "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@xmlns:dc": "http://purl.org/metadata/dublin_core#",
+        "@xmlns:dcq": "http://purl.org/metadata/dublin_core_qualifiers#",
+        "rdf:Description": {
+            "@about": "http://www.dlib.org/dlib/may98/miller/05miller.html",
+            "dc:Title": "An Introduction to the Resource Description Framework",
+            "dc:Creator": "Eric J. Miller",
+            "dc:Description": "The Resource Description Framework (RDF) is an\n       infrastructure that enables the encoding, exchange and reuse of\n       structured metadata. rdf is an application of xml that imposes needed\n       structural constraints to provide unambiguous methods of expressing\n       semantics. rdf additionally provides a means for publishing both\n       human-readable and machine-processable vocabularies designed to\n       encourage the reuse and extension of metadata semantics among\n       disparate information communities. the structural constraints rdf\n       imposes to support the consistent encoding and exchange of\n       standardized metadata provides for the interchangeability of separate\n       packages of metadata defined by different resource description\n       communities.",
+            "dc:Publisher": "Corporation for National Research Initiatives",
+            "dc:Subject": {
+                "rdf:Bag": {
+                    "rdf:li": [
+                        "machine-readable catalog record formats",
+                        "applications of computer file organization and\n           access methods"
+                    ]
+                }
+            },
+            "dc:Rights": "Copyright @ 1998 Eric Miller",
+            "dc:Type": "Electronic Document",
+            "dc:Format": "text/html",
+            "dc:Language": "en",
+            "dc:Relation": {
+                "@rdf:parseType": "Resource",
+                "dcq:RelationType": {
+                    "@rdf:resource": "http://purl.org/metadata/dublin_core_qualifiers#IsPartOf"
+                },
+                "rdf:value": {
+                    "@resource": "http://www.dlib.org/dlib/may98/05contents.html"
+                }
+            }
+        }
+    }
+}

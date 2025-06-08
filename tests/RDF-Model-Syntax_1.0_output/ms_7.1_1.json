@@ -1,0 +1,35 @@
+{
+    "RDF": {
+        "@xmlns": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "Seq": [
+            {
+                "@ID": "JSPapersByDate",
+                "li": [
+                    {
+                        "@resource": "http://www.dogworld.com/Aug96.doc"
+                    },
+                    {
+                        "@resource": "http://www.webnuts.net/Jan97.html"
+                    },
+                    {
+                        "@resource": "http://www.carchat.com/Sept97.html"
+                    }
+                ]
+            },
+            {
+                "@ID": "JSPapersBySubj",
+                "li": [
+                    {
+                        "@resource": "http://www.carchat.com/Sept97.html"
+                    },
+                    {
+                        "@resource": "http://www.dogworld.com/Aug96.doc"
+                    },
+                    {
+                        "@resource": "http://www.webnuts.net/Jan97.html"
+                    }
+                ]
+            }
+        ]
+    }
+}
