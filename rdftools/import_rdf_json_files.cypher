@@ -45,3 +45,7 @@ unwind keys(value) as key
     }
 
 return count(distinct g) as `Antal jsonfiler`
+;
+match (n where n.label is not null)
+with *,n.label as label
+set n:$(label)
